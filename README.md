@@ -52,4 +52,88 @@ Document.write(vowel_count("The quick brown fox"));
 ```
 
 4. Escribe un programa en JavaScript para calcular la multiplicación y la división de dos números (input del usuario). Ejemplo:
-![imgExercise](img/imgexercise.png)
+
+<html>
+
+<head>
+
+<meta charset=utf-8 />
+
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+
+<style type="text/css">
+
+body {margin: 30px;}
+
+</style>
+
+</head>
+
+<body>
+
+<form>
+
+1st Number : <input type="text" id="firstNumber" /><br>
+
+2nd Number: <input type="text" id="secondNumber" /><br>
+
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+
+<input type="button" onClick="divideBy()" Value="Divide" />
+
+</form>
+
+<p>The Result is : <br>
+
+<span id = "result"></span>
+
+</p>
+
+</body>
+
+</html>
+
+```javascript
+<!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		
+		<meta charset=utf-8 />
+		
+		<title>JavaScript program to calculate multiplication and division of two numbers </title>
+		
+		<style type="text/css">
+		
+		body {margin: 30px;}
+		
+		</style>
+		
+		</head>
+	
+		<body>
+		
+			<form>
+			
+				1st Number : <input type="text" id="firstNumber" /><br>
+				
+				2nd Number: <input type="text" id="secondNumber" /><br>
+			
+				<input type="button" onClick="multiplyBy()" Value="Multiply" />
+			
+				<input type="button" onClick="divideBy()" Value="Divide" />
+			
+			</form>
+		
+			<p>The Result is : <br>
+			
+				<span id = "result"></span>
+			
+			</p>
+		
+		</body>
+	
+	</html>
+```
+
