@@ -52,4 +52,4 @@ Document.write(vowel_count("The quick brown fox"));
 ```
 
 4. Escribe un programa en JavaScript para calcular la multiplicación y la división de dos números (input del usuario). Ejemplo:
-![[Captura de Pantalla 2022-10-20 a las 9.57.52.png]]
+![imgExercise](img/imgexercise.png)
