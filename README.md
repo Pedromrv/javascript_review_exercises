@@ -55,7 +55,9 @@ Document.write(vowel_count("The quick brown fox"));
 
 ![imgExercise](img/imgexercise.png)
 
-```javascript
+html: 
+
+```html
 <!DOCTYPE html>
 
 	<html>
@@ -99,3 +101,28 @@ Document.write(vowel_count("The quick brown fox"));
 	</html>
 ```
 
+javascript:
+
+```javascript
+function multiplyBy(){
+
+	num1 = document.getElementById("firstNumber").value;
+	
+	num2 = document.getElementById("secondNumber").value;
+	
+	document.getElementById("result").innerHTML = num1 * num2;
+
+}
+
+  
+
+function divideBy(){
+
+	num1 = document.getElementById("firstNumber").value;
+	
+	num2 = document.getElementById("secondNumber").value;
+	
+	document.getElementById("result").innerHTML = num1 / num2;
+
+}
+```
